@@ -19,7 +19,7 @@ For the purpose of this project, we selected four datasets that span years 2018-
 2018 are not verified by the RIDB as accurately reported data.
 <br />
 
-**Summary of Raw Data**
+  **Summary of Raw Data**
 | Year | # Objects (rows) | # Attributes (columns) |
 | ----------- | ----------- | ----------- |
 | 2018 | 2,712,818 | 57
@@ -47,8 +47,7 @@ such as an integer. The model makes predictions based on computing a weighted su
 constant called the bias term. This model was chosen to use on our dataset because the trend of starting dates and
 order dates were shown to have a positive linear relationship. The raw data has been preprocessed in order to fit this
 model, since regression requires only numerical data, all categorical values have been converted using a
-one-hot-encoder method. This method seeks to determine an exact date, where the other two methods will determine
-a range of dates, thus knowing this, it is expected that this model will have a lower accuracy than the others. Testing
+one-hot-encoder method. This method seeks to determine an exact date, it is expected that this model will have a lower accuracy than the others. Testing
 the data on a single park from 2018-2021 yields roughly the same results as testing the data on all parks, so it is
 apparent the amount of data points in this test did not contribute significantly for the linear regression model.
 
